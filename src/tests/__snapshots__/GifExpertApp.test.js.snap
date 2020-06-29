@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to Gif App should have a list opf categories 1`] = `
+<Fragment>
+  <h1>
+    Gift Expert App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="One punch man"
+      key="One punch man"
+    />
+    <GifGrid
+      category="Naruto"
+      key="Naruto"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Test to Gif App should render 1`] = `
+<Fragment>
+  <h1>
+    Gift Expert App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="One punch man"
+      key="One punch man"
+    />
+  </ol>
+</Fragment>
+`;

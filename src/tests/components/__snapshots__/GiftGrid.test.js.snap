@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test grif grid should render success 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    saitama
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`test grif grid should show items when images is loading by useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    saitama
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="BAC"
+      key="BAC"
+      title="any"
+      url="http:localhost/img.png"
+    />
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="any 2"
+      url="http:localhost/img.png"
+    />
+  </div>
+</Fragment>
+`;

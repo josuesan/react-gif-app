@@ -2,10 +2,8 @@ import React, { useState } from 'react'
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(
-    ['One punch man']
-  );
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
   return (
     <>
       <h1>Gift Expert App</h1>
